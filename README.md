@@ -1,4 +1,11 @@
-# github-action-wait-for-status
+# github-action-wait-for-status-bundle
+
+A fork of github-action-wait-for-status that allows you to define
+exactly which statuses should form part of the check
+
+## Original Readme
+
+### github-action-wait-for-status
 
 Github Action that waits for successful commit statuses and checks.
 
@@ -109,3 +116,4 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+

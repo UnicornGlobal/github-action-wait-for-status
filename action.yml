@@ -4,13 +4,9 @@ branding:
   icon: 'clock'
   color: 'orange'
 inputs:
-  ignoreActions:
-    description: 'CSV of action names to ignore'
+  payload:
+    description: 'Object containing the options'
     required: true
-  checkInterval:
-    description: 'Time between checks (in seconds)'
-    required: false
-    default: 10
 outputs:
   status:
     description: 'Success or failure'
